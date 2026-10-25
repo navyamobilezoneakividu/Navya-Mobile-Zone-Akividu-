@@ -9,3 +9,4 @@
 .about-logo-visual { padding: 18px; background: #1a1715; }
 .shop-logo-image { display: block; width: 100%; max-height: 310px; object-fit: contain; border-radius: 8px; position: relative; z-index: 1; }
 @media(max-width:640px) { .shop-logo-image { max-height: 245px; } }
+.shop-logo-image { width: 180px;height: 180px;object-fit: cover;border-radius: 50%;display: block;margin: 0 auto}
