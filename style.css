@@ -17,3 +17,12 @@
   display: block;
   margin: 0 auto;
 }
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #d8c49a;
+  display: inline-block;
+  vertical-align: middle;
+}
