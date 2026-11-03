@@ -49,8 +49,8 @@
 }
 .hero-art .hero-image {
   display: block !important;
-  width: 350px !important;
-  height: 350px !important;
+  width: 400px !important;
+  height: 400px !important;
   max-width: 90% !important;
   aspect-ratio: 1 / 1 !important;
   object-fit: cover !important;
@@ -62,4 +62,7 @@
   object-fit: contain !important;
   border-radius: 20px !important;
   border: 3px solid #d8c49a;
+}
+.hero-art {
+  transform: translateX(-30px);
 }
