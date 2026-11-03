@@ -26,22 +26,17 @@
   display: inline-block;
   vertical-align: middle;
 }
-/* Hero artwork image */
+/* Show Navya artwork in the hero area */
 .hero-art {
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: center;
-}
-.hero-art .orbit,
-.hero-art .phone,
-.hero-art .float-card,
-.hero-art .hero-star {
-  display: none !important;
-}
-.hero-art {
+  width: 100%;
+  min-height: 350px;
   background: transparent !important;
   border: none !important;
   box-shadow: none !important;
+  overflow: hidden;
 }
 
 .hero-art .hero-image {
@@ -49,6 +44,9 @@
   width: 100% !important;
   max-width: 500px !important;
   height: auto !important;
+  object-fit: contain !important;
+  border-radius: 20px;
+}
   object-fit: contain !important;
   border-radius: 20px !important;
   border: 3px solid #d8c49a;
