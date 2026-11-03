@@ -26,3 +26,20 @@
   display: inline-block;
   vertical-align: middle;
 }
+/* Hero artwork image */
+.hero-art {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-art .hero-image {
+  display: block;
+  width: min(100%, 380px);
+  aspect-ratio: 1 / 1;
+  height: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #d8c49a;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
