@@ -66,6 +66,18 @@
   position: relative !important;
   z-index: 5 !important;
 }
+.hero-art .hero-image {
+  display: block !important;
+  width: 350px !important;
+  height: 350px !important;
+  max-width: 90% !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 50% !important;
+  border: 5px solid #d8c49a !important;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
   object-fit: contain !important;
   border-radius: 20px !important;
   border: 3px solid #d8c49a;
