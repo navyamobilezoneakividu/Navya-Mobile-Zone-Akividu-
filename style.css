@@ -29,43 +29,23 @@
 /* Show Navya artwork in the hero area */
 .hero-art {
   display: flex !important;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  min-height: 350px;
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  overflow: hidden;
-}
-
-.hero-art .hero-image {
-  display: block !important;
-  width: 100% !important;
-  max-width: 500px !important;
-  height: auto !important;
-  object-fit: contain !important;
-  border-radius: 20px;
-}
-.hero-art {
-  display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   width: 100% !important;
-  transform: none !important;
 }
 
 .hero-art .hero-image {
   display: block !important;
-  width: 350px !important;
-  height: 350px !important;
-  max-width: 90% !important;
+  width: 320px !important;
+  height: 320px !important;
+  min-width: 320px !important;
+  max-width: 320px !important;
+  flex: 0 0 320px !important;
   aspect-ratio: 1 / 1 !important;
   object-fit: cover !important;
-  object-position: center !important;
   border-radius: 50% !important;
   border: 5px solid #d8c49a !important;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3) !important;
-  transform: none !important;
+  box-sizing: border-box !important;
   margin: 0 auto !important;
+  transform: none !important;
 }
