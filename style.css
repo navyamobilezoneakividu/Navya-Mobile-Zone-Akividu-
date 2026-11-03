@@ -49,8 +49,8 @@
 }
 .hero-art .hero-image {
   display: block !important;
-  width: 400px !important;
-  height: 400px !important;
+  width: 900px !important;
+  height: 900px !important;
   max-width: 90% !important;
   aspect-ratio: 1 / 1 !important;
   object-fit: cover !important;
