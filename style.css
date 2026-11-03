@@ -51,3 +51,22 @@
   border-radius: 20px !important;
   border: 3px solid #d8c49a;
 }
+/* Remove old decorative circles */
+.hero-art::before,
+.hero-art::after {
+  content: none !important;
+  display: none !important;
+}
+
+/* Display the Navya artwork */
+.hero-art .hero-image {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  height: auto !important;
+  object-fit: contain !important;
+  position: relative !important;
+  z-index: 5 !important;
+}
